@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdrenalistApp.PlacePutrajaya"
+             Title="Putrajaya Challenge Park">
+    <ScrollView>
+        <VerticalStackLayout
+    Padding="80,0"
+    Spacing="25">
+            <Image Source="putrajaya.png" WidthRequest="400" HeightRequest="400" HorizontalOptions="Center" />
+            <Label
+      Text="Putrajaya Challenge Park is an expansive recreational facility located in Putrajaya, Malaysia, designed to cater to outdoor enthusiasts and sports enthusiasts alike."         
+      VerticalOptions="Start"
+      HorizontalOptions="Center"
+      FontSize="18"
+      FontAttributes="Bold" />
+            <Label 
+    Text="Entry Fee : RM6 (Adults) and RM 3 (Students)"
+/>
+            <Label 
+    Text="Hours : 10am-11pm (Everyday)" 
+/>
+            <Label 
+    Text="Phone : +60 38887 7000"
+/>
+
+            <Grid Grid.Row="1" Padding="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Text="Rate This Place" HorizontalOptions="Fill" VerticalOptions="End" Clicked="RateSkate" Margin="1,10,-80,0" />
+            </Grid>
+            <Grid Grid.Row="1" Padding="5" HorizontalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Text="Map" HorizontalOptions="Center" Clicked="MapsButton_Clicked" VerticalOptions="End" Margin= "0,-30,20,50" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

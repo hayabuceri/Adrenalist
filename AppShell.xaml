@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AdrenalistApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AdrenalistApp"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.BackgroundColor="Black"
+    Shell.TitleColor="White"
+    Title="AdrenalistApp">
+    <Shell.FlyoutHeader>
+        <VerticalStackLayout>
+            <Label Text="MENU" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+        <ShellContent
+    Title="Record"
+    ContentTemplate="{DataTemplate local:Record}"
+    Route="Record" />
+        <ShellContent
+    Title="About"
+    ContentTemplate="{DataTemplate local:About}"
+    Route="About" />
+
+</Shell>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdrenalistApp.HikingPage"
+             BackgroundImageSource="black.jpg"
+             >
+    <ScrollView>
+        <VerticalStackLayout 
+    Spacing="10"
+        Margin="20,0,0,0"
+        >
+            <Label 
+        Text="Hiking" 
+        HorizontalOptions="Center" 
+        FontAttributes="Bold"
+        FontSize="50"
+        Margin="0,0,30,10"
+            />
+            <Label 
+        Text="Do's"
+        HorizontalOptions="Center" 
+        FontAttributes="Bold"
+        FontSize="20"
+        Margin="0,0,30,10"
+    />
+            <Label 
+        Text="1. Plan Ahead: Research the trail you're going to hike, check the weather forecast, and make sure you're prepared for the conditions."
+        Margin="0,0,10,10"
+    />
+            <Label 
+        Text="2. Wear appropriate clothing: Dress in layers, wear moisture-wicking fabrics, and choose sturdy hiking boots or shoes that provide good traction."
+        Margin="0,0,10,10"
+    />
+            <Label 
+        Text="3. Bring essential gear: Carry a map, compass or GPS device, plenty of water, snacks, a first aid kit, a multi-tool, and a flashlight or headlamp with extra batteries."
+        Margin="0,0,10,10"
+    />
+            <Label 
+        Text="4. Hydrate and snack regularly: Drink water and eat snacks to maintain your energy levels throughout the hike."
+        Margin="0,0,10,10"
+    />
+            <Label 
+    Text="Don'ts"
+    HorizontalOptions="Center" 
+    FontAttributes="Bold"
+    FontSize="20"
+    Margin="0,0,30,10"
+/>
+            <Label 
+    Text="1. Don't ignore signs or warnings: Heed trail closures, weather advisories, and wildlife alerts."
+    Margin="0,0,10,10"
+/>
+            <Label 
+    Text="2. Don't approach or disturb wildlife: Keep a safe distance and avoid feeding or harassing animals."
+    Margin="0,0,10,10"
+/>
+            <Label 
+    Text="3. Don't litter: Pack out all your trash, including food wrappers and toilet paper."
+    Margin="0,0,10,10"
+/>
+            <Label 
+    Text="4. Don't forget to check the weather: Be prepared for changing weather conditions, and dress accordingly."
+    Margin="0,0,10,10"
+/>
+            <Label 
+    Text="Video Tutorial"
+    HorizontalOptions="Center" 
+    FontAttributes="Bold"
+    FontSize="20"
+    Margin="0,0,30,10"
+/>
+            <Frame x:Name="webFrame" BackgroundColor="White" CornerRadius="10" Padding="0" HeightRequest="200" WidthRequest="370" Margin="0,0,20,0">
+                <WebView x:Name="webView" Source="https://www.youtube.com/embed/edElLWvSVLk?autoplay=1"/>
+            </Frame>
+            <Grid Grid.Row="1" Padding="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Text="Recommended Hiking Place" HorizontalOptions="Fill" VerticalOptions="End" Margin="50,10,-100,0" Clicked="HikingPlace" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

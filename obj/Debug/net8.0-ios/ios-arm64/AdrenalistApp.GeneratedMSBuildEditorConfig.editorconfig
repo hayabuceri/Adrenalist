@@ -1,0 +1,173 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AdrenalistApp
+build_property.ProjectDir = C:\Users\Lenovo\Desktop\mobile APP\AdrenalistApp\AdrenalistApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/About.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.About.xaml
+build_metadata.AdditionalFiles.TargetPath = About.xaml
+build_metadata.AdditionalFiles.RelativePath = About.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/ActivityPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.ActivityPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ActivityPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ActivityPage.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/HikingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.HikingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = HikingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = HikingPage.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/HikingPlace.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.HikingPlace.xaml
+build_metadata.AdditionalFiles.TargetPath = HikingPlace.xaml
+build_metadata.AdditionalFiles.RelativePath = HikingPlace.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/PlaceCamp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.PlaceCamp.xaml
+build_metadata.AdditionalFiles.TargetPath = PlaceCamp.xaml
+build_metadata.AdditionalFiles.RelativePath = PlaceCamp.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/PlaceKajang.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.PlaceKajang.xaml
+build_metadata.AdditionalFiles.TargetPath = PlaceKajang.xaml
+build_metadata.AdditionalFiles.RelativePath = PlaceKajang.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/PlaceKiara.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.PlaceKiara.xaml
+build_metadata.AdditionalFiles.TargetPath = PlaceKiara.xaml
+build_metadata.AdditionalFiles.RelativePath = PlaceKiara.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/PlaceKinabalu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.PlaceKinabalu.xaml
+build_metadata.AdditionalFiles.TargetPath = PlaceKinabalu.xaml
+build_metadata.AdditionalFiles.RelativePath = PlaceKinabalu.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/PlacePutrajaya.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.PlacePutrajaya.xaml
+build_metadata.AdditionalFiles.TargetPath = PlacePutrajaya.xaml
+build_metadata.AdditionalFiles.RelativePath = PlacePutrajaya.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/PlaceSgwang.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.PlaceSgwang.xaml
+build_metadata.AdditionalFiles.TargetPath = PlaceSgwang.xaml
+build_metadata.AdditionalFiles.RelativePath = PlaceSgwang.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/PlaceShahalam.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.PlaceShahalam.xaml
+build_metadata.AdditionalFiles.TargetPath = PlaceShahalam.xaml
+build_metadata.AdditionalFiles.RelativePath = PlaceShahalam.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/PlaceStong.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.PlaceStong.xaml
+build_metadata.AdditionalFiles.TargetPath = PlaceStong.xaml
+build_metadata.AdditionalFiles.RelativePath = PlaceStong.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/PlaceTahan.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.PlaceTahan.xaml
+build_metadata.AdditionalFiles.TargetPath = PlaceTahan.xaml
+build_metadata.AdditionalFiles.RelativePath = PlaceTahan.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/RatePlace.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.RatePlace.xaml
+build_metadata.AdditionalFiles.TargetPath = RatePlace.xaml
+build_metadata.AdditionalFiles.RelativePath = RatePlace.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/RateSkate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.RateSkate.xaml
+build_metadata.AdditionalFiles.TargetPath = RateSkate.xaml
+build_metadata.AdditionalFiles.RelativePath = RateSkate.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/RateWallclimb.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.RateWallclimb.xaml
+build_metadata.AdditionalFiles.TargetPath = RateWallclimb.xaml
+build_metadata.AdditionalFiles.RelativePath = RateWallclimb.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/Record.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.Record.xaml
+build_metadata.AdditionalFiles.TargetPath = Record.xaml
+build_metadata.AdditionalFiles.RelativePath = Record.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/SkatingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.SkatingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SkatingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SkatingPage.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/SkatingPlace.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.SkatingPlace.xaml
+build_metadata.AdditionalFiles.TargetPath = SkatingPlace.xaml
+build_metadata.AdditionalFiles.RelativePath = SkatingPlace.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/WallClimbPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.WallClimbPage.xaml
+build_metadata.AdditionalFiles.TargetPath = WallClimbPage.xaml
+build_metadata.AdditionalFiles.RelativePath = WallClimbPage.xaml
+
+[C:/Users/Lenovo/Desktop/mobile APP/AdrenalistApp/AdrenalistApp/WallClimbPlace.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AdrenalistApp.WallClimbPlace.xaml
+build_metadata.AdditionalFiles.TargetPath = WallClimbPlace.xaml
+build_metadata.AdditionalFiles.RelativePath = WallClimbPlace.xaml

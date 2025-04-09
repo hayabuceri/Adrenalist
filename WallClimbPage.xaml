@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdrenalistApp.WallClimbPage"
+             BackgroundImageSource="black.jpg"
+             >
+    <ScrollView>
+        <VerticalStackLayout 
+    Spacing="10"
+        Margin="20,0,0,0"
+        >
+            <Label 
+        Text="Wall Climbing" 
+        HorizontalOptions="Center" 
+        FontAttributes="Bold"
+        FontSize="50"
+        Margin="0,0,20,10"
+            />
+            <Label 
+        Text="Do's"
+        HorizontalOptions="Center" 
+        FontAttributes="Bold"
+        FontSize="20"
+        Margin="0,0,30,10"
+    />
+            <Label 
+        Text="1. Warm up and stretch: Before climbing, warm up with light cardio and stretch your muscles to prevent injuries."
+        Margin="0,0,0,10"
+    />
+            <Label 
+        Text="2. Use proper climbing techniques: Learn and practice proper climbing techniques to conserve energy and reduce the risk of injury."
+        Margin="0,0,0,10"
+    />
+            <Label 
+        Text="3. Check your equipment: Make sure your harness, ropes, and other equipment are in good condition and properly secured."
+        Margin="0,0,0,10"
+    />
+            <Label 
+        Text="4. Climb with a partner: Climbing with a partner can help in case of an emergency and provide moral support."
+        Margin="0,0,0,10"
+    />
+            <Label 
+    Text="Don'ts"
+    HorizontalOptions="Center" 
+    FontAttributes="Bold"
+    FontSize="20"
+    Margin="0,0,30,10"
+/>
+            <Label 
+        Text="1. Don't climb beyond your ability: Don't attempt routes that are beyond your skill level or physical ability."
+        Margin="0,0,0,10"
+    />
+            <Label 
+        Text="2. Don't ignore safety warnings: Pay attention to safety warnings and signs, and take necessary precautions to avoid hazards."
+        Margin="0,0,0,10"
+    />
+            <Label 
+        Text="3. Don't climb when tired: Take regular breaks and rest when you're feeling tired to avoid fatigue and injury."
+        Margin="0,0,0,10"
+    />
+            <Label 
+        Text="4. Don't neglect to inspect the wall: Inspect the wall for any damage or hazards before climbing to ensure a safe climbing experience."
+        Margin="0,0,0,10"
+    />
+            <Label 
+    Text="Video Tutorial"
+    HorizontalOptions="Center" 
+    FontAttributes="Bold"
+    FontSize="20"
+    Margin="0,0,30,10"
+/>
+            <Frame x:Name="webFrame" BackgroundColor="White" CornerRadius="10" Padding="0" HeightRequest="200" WidthRequest="370" Margin="0,0,20,0">
+                <WebView x:Name="webView" Source="https://www.youtube.com/embed/HwQg7hD19jE"/>
+            </Frame>
+            <Grid Grid.Row="1" Padding="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Text="Recommended Place" Clicked="WallClimbPlace" HorizontalOptions="Fill" VerticalOptions="End" Margin="50,10,-100,0" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

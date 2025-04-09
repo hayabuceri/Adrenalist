@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdrenalistApp.Record"
+             Title="Record">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Hiking Places" HorizontalTextAlignment="Center" FontSize="30" Padding="10"/>
+            <CollectionView x:Name="displayRecord" ItemsSource="{Binding Rating}">
+                <CollectionView.Header>
+                    <Grid ColumnDefinitions="0* , 2* , 2* , 2*">
+                        <Label Grid.Column="1" Text="Place" FontAttributes="Bold" Padding="10" BackgroundColor="DarkBlue" TextColor="White" HorizontalTextAlignment="Center"/>
+                        <Label Grid.Column="2" Text="Rating" FontAttributes="Bold" Padding="10" BackgroundColor="DarkBlue" TextColor="White" HorizontalTextAlignment="Center"/>
+                        <Label Grid.Column="3" Text="Comment" FontAttributes="Bold" Padding="10" BackgroundColor="DarkBlue" TextColor="White" HorizontalTextAlignment="Center"/>
+                    </Grid>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <Grid ColumnDefinitions="0* , 2* , 2* , 2*">
+                                <Label Grid.Column="1" Text="{Binding Place}" Padding="10" BackgroundColor="LightBlue" TextColor="Black" HorizontalTextAlignment="Center" Margin="1" />
+                                <Label Grid.Column="2" Text="{Binding Rating}" Padding="10" BackgroundColor="LightBlue" TextColor="Black" HorizontalTextAlignment="Center" Margin="1" />
+                                <Label Grid.Column="3" Text="{Binding Comment}" Padding="10" BackgroundColor="LightBlue" TextColor="Black" HorizontalTextAlignment="Center" Margin="1" />
+                            </Grid>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+            <Label Text="Skateboarding Places" HorizontalTextAlignment="Center" FontSize="30" Padding="10"/>
+            <CollectionView x:Name="displayRecord2" ItemsSource="{Binding Rating2}">
+                <CollectionView.Header>
+                    <Grid ColumnDefinitions="0* , 2* , 2* , 2*">
+                        <Label Grid.Column="1" Text="Place" FontAttributes="Bold" Padding="10" BackgroundColor="DarkBlue" TextColor="White" HorizontalTextAlignment="Center"/>
+                        <Label Grid.Column="2" Text="Rating" FontAttributes="Bold" Padding="10" BackgroundColor="DarkBlue" TextColor="White" HorizontalTextAlignment="Center"/>
+                        <Label Grid.Column="3" Text="Comment" FontAttributes="Bold" Padding="10" BackgroundColor="DarkBlue" TextColor="White" HorizontalTextAlignment="Center"/>
+                    </Grid>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <Grid ColumnDefinitions="0* , 2* , 2* , 2*">
+                                <Label Grid.Column="1" Text="{Binding Place2}" Padding="10" BackgroundColor="LightBlue" TextColor="Black" HorizontalTextAlignment="Center" Margin="1" />
+                                <Label Grid.Column="2" Text="{Binding Rating2}" Padding="10" BackgroundColor="LightBlue" TextColor="Black" HorizontalTextAlignment="Center" Margin="1" />
+                                <Label Grid.Column="3" Text="{Binding Comment2}" Padding="10" BackgroundColor="LightBlue" TextColor="Black" HorizontalTextAlignment="Center" Margin="1" />
+                            </Grid>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+            <Label Text="Wall Climbing Places" HorizontalTextAlignment="Center" FontSize="30" Padding="10"/>
+            <CollectionView x:Name="displayRecord3" ItemsSource="{Binding Rating3}">
+                <CollectionView.Header>
+                    <Grid ColumnDefinitions="0* , 2* , 2* , 2*">
+                        <Label Grid.Column="1" Text="Place" FontAttributes="Bold" Padding="10" BackgroundColor="DarkBlue" TextColor="White" HorizontalTextAlignment="Center"/>
+                        <Label Grid.Column="2" Text="Rating" FontAttributes="Bold" Padding="10" BackgroundColor="DarkBlue" TextColor="White" HorizontalTextAlignment="Center"/>
+                        <Label Grid.Column="3" Text="Comment" FontAttributes="Bold" Padding="10" BackgroundColor="DarkBlue" TextColor="White" HorizontalTextAlignment="Center"/>
+                    </Grid>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <Grid ColumnDefinitions="0* , 2* , 2* , 2*">
+                                <Label Grid.Column="1" Text="{Binding Place3}" Padding="10" BackgroundColor="LightBlue" TextColor="Black" HorizontalTextAlignment="Center" Margin="1" />
+                                <Label Grid.Column="2" Text="{Binding Rating3}" Padding="10" BackgroundColor="LightBlue" TextColor="Black" HorizontalTextAlignment="Center" Margin="1" />
+                                <Label Grid.Column="3" Text="{Binding Comment3}" Padding="10" BackgroundColor="LightBlue" TextColor="Black" HorizontalTextAlignment="Center" Margin="1" />
+                            </Grid>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

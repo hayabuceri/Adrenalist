@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdrenalistApp.PlaceStong"
+             Title="Gunung Stong">
+    <ScrollView>
+        <VerticalStackLayout
+    Padding="80,0"
+    Spacing="25">
+            <Image Source="stong.png" WidthRequest="400" HeightRequest="400" HorizontalOptions="Center" />
+            <Label
+      Text="Mount Stong, 1,422 meters (4,665 ft) tall is a prominent mountain located in the state of Kelantan, Malaysia. It is part of the Titiwangsa Mountain Range, which stretches across the northern part of Peninsular Malaysia."         
+      VerticalOptions="Start"
+      HorizontalOptions="Center"
+      FontSize="18"
+      FontAttributes="Bold" />
+            <Label 
+    Text="Difficulty : Easy"
+/>
+            <Label 
+    Text="PIC : Stong State Park Headquarters" 
+/>
+            <Label 
+    Text="Phone : +60 9-748 5534"
+/>
+            <Label 
+    Text="Email : info@mountstong.com"
+/>
+
+
+            <Grid Grid.Row="1" Padding="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Text="Rate This Place" HorizontalOptions="Fill" VerticalOptions="End" Clicked="RatePlace" Margin="1,10,-80,0" />
+            </Grid>
+            <Grid Grid.Row="1" Padding="5" HorizontalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Text="Map" HorizontalOptions="Center" Clicked="MapsButton_Clicked" VerticalOptions="End" Margin= "0,-30,20,50" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdrenalistApp.RateSkate"
+             Title="Rate Skate Places">
+    <ScrollView>
+        <VerticalStackLayout Padding="30">
+            <Label Text="Pick place : " HorizontalTextAlignment="Start" FontSize="16" Padding="10"/>
+            <Grid>
+                <Frame BackgroundColor="#414141" BorderColor="#414141" CornerRadius="7" Padding="5" HasShadow="False">
+                    <Picker x:Name="place2" HorizontalTextAlignment="Center" TextColor="#89CFF0">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Putrajaya Challenge Park</x:String>
+                                <x:String>Skatepark Bukit Kiara</x:String>
+                                <x:String>Converse Kajang Skatepark</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </Frame>
+            </Grid>
+            <Label Text=" &#x0a;"/>
+            <Label Text="Rate this place : " HorizontalTextAlignment="Start" FontSize="16" Padding="10"/>
+            <Frame BackgroundColor="#414141" BorderColor="#414141" CornerRadius="7" Padding="5" HasShadow="False">
+                <Picker x:Name="rating2" HorizontalTextAlignment="Center" TextColor="#89CFF0">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </Frame>
+            <Label Text=" &#x0a;"/>
+            <Frame BackgroundColor="#414141" BorderColor="#414141" CornerRadius="7" Padding="5" HasShadow="False" HeightRequest="65">
+                <Editor x:Name="comment2" Placeholder="Enter your comment" HorizontalOptions="Fill" Margin="0,20,0,0" />
+            </Frame>
+            <Grid ColumnDefinitions="Auto, *" Margin="0,20,0,0">
+                <Button Clicked="SaveButton2" Grid.Column="1" Text="Submit" HorizontalOptions="End" VerticalOptions="Center" />
+                <Button Grid.Column="0" Text="Cancel" Clicked="PlaceKinabalu" HorizontalOptions="Start" VerticalOptions="Center" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

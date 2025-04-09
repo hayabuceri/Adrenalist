@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdrenalistApp.PlaceSgwang"
+             Title="Beast Park, Sungei Wang">
+    <ScrollView>
+        <VerticalStackLayout
+    Padding="80,0"
+    Spacing="25">
+            <Image Source="sgwang.png" WidthRequest="400" HeightRequest="400" HorizontalOptions="Center" />
+            <Label
+      Text="Beast Park, located in Sungei Wang Plaza, Kuala Lumpur, Malaysia, is a thrilling indoor adventure park designed to provide visitors with an exhilarating and unforgettable experience."         
+      VerticalOptions="Start"
+      HorizontalOptions="Center"
+      FontSize="18"
+      FontAttributes="Bold" />
+            <Label 
+    Text="Entry Fee : starting from RM29"
+/>
+            <Label 
+    Text="Hours : 10am-10pm" 
+/>
+            <Label 
+    Text="Phone : +60 32713 7128"
+/>
+
+            <Grid Grid.Row="1" Padding="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Text="Rate This Place" HorizontalOptions="Fill" VerticalOptions="End" Clicked="RateWallclimb" Margin="1,10,-80,0" />
+            </Grid>
+            <Grid Grid.Row="1" Padding="5" HorizontalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Text="Map" HorizontalOptions="Center" Clicked="MapsButton_Clicked" VerticalOptions="End" Margin= "0,-30,20,50" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

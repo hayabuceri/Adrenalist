@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdrenalistApp.MainPage"
+             BackgroundImageSource="wallpaper.png">
+    <ScrollView>
+    <VerticalStackLayout
+            Padding="30,0"
+            Spacing="350">
+            <Label
+    Text="&#x0a;
+    &#x0a;
+    &#x0a;
+    &#x0a;
+    &#x0a;
+    &#x0a;
+    &#x0a;
+    &#x0a;
+    &#x0a;"/>
+            <Button
+                 x:Name="CounterBtn"
+                 Text="X p l o r e   XTVT" 
+                 Clicked="ActivityPage"
+                 HorizontalOptions="Fill"
+                 WidthRequest="240"
+                 HeightRequest="80"
+                 FontSize="20"
+                 FontAttributes="Bold"
+                 BackgroundColor="Black"
+                 TextColor="White"
+                 CornerRadius="20"
+                />
+
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

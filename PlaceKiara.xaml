@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdrenalistApp.PlaceKiara"
+             Title="Bukit Kiara Skatepark">
+    <ScrollView>
+        <VerticalStackLayout
+    Padding="80,0"
+    Spacing="25">
+            <Image Source="kiara.png" WidthRequest="400" HeightRequest="400" HorizontalOptions="Center" />
+            <Label
+      Text="Bukit Kiara Skatepark is a premier outdoor recreational facility situated in Bukit Kiara, Kuala Lumpur, Malaysia, renowned for its world-class skateboarding amenities and vibrant community atmosphere."         
+      VerticalOptions="Start"
+      HorizontalOptions="Center"
+      FontSize="18"
+      FontAttributes="Bold" />
+            <Label 
+    Text="Entry Fee : RM5 (Adults) and RM 2 (Students)"
+/>
+            <Label 
+    Text="Hours : 8am-10pm (Everyday)" 
+/>
+            <Label 
+    Text="Phone : +60 32081 5800"
+/>
+
+            <Grid Grid.Row="1" Padding="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Text="Rate This Place" HorizontalOptions="Fill" VerticalOptions="End" Clicked="RateSkate" Margin="1,10,-80,0" />
+            </Grid>
+            <Grid Grid.Row="1" Padding="5" HorizontalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Text="Map" HorizontalOptions="Center" Clicked="MapsButton_Clicked" VerticalOptions="End" Margin= "0,-30,20,50" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

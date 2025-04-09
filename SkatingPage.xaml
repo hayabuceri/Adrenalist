@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdrenalistApp.SkatingPage"
+             BackgroundImageSource="black.jpg">
+    <ScrollView>
+        <VerticalStackLayout 
+    Spacing="10"
+        Margin="20,0,0,0"
+        >
+            <Label 
+        Text="Skateboarding" 
+        HorizontalOptions="Center" 
+        FontAttributes="Bold"
+        FontSize="50"
+        Margin="0,0,30,10"
+            />
+            <Label 
+        Text="Do's"
+        HorizontalOptions="Center" 
+        FontAttributes="Bold"
+        FontSize="20"
+        Margin="0,0,30,10"
+    />
+            <Label 
+        Text="1. Wear protective gear: Helmets, knee pads, and elbow pads are a must."
+        Margin="0,0,10,10"
+    />
+            <Label 
+        Text="2. Skate within your ability: Don't attempt tricks or stunts that are beyond your skill level."
+        Margin="0,0,10,10"
+    />
+            <Label 
+        Text="3. Be aware of your surroundings: Watch out for obstacles, other skaters, and pedestrians."
+        Margin="0,0,10,10"
+    />
+            <Label 
+        Text="4. Skate with a buddy: Having a partner can help in case of an emergency."
+        Margin="0,0,10,10"
+    />
+            <Label 
+    Text="Don'ts"
+    HorizontalOptions="Center" 
+    FontAttributes="Bold"
+    FontSize="20"
+    Margin="0,0,30,10"
+/>
+            <Label 
+        Text="1. Don't skate too close to others: Maintain a safe distance to avoid collisions."
+        Margin="0,0,10,10"
+    />
+            <Label 
+        Text="2. Don't skate on uneven or rough surfaces: Avoid skating on surfaces that can cause injuries."
+        Margin="0,0,10,10"
+    />
+            <Label 
+        Text="3. Don't wear loose clothing: Avoid wearing loose clothing that can get caught in your skates."
+        Margin="0,0,10,10"
+    />
+            <Label 
+        Text="4. Don't skate at night without proper lighting: Make sure you have proper lighting to see obstacles."
+        Margin="0,0,10,10"
+    />
+            <Label 
+    Text="Video Tutorial"
+    HorizontalOptions="Center" 
+    FontAttributes="Bold"
+    FontSize="20"
+    Margin="0,0,30,10"
+/>
+            <Frame x:Name="webFrame" BackgroundColor="White" CornerRadius="10" Padding="0" HeightRequest="200" WidthRequest="370" Margin="0,0,20,0">
+                <WebView x:Name="webView" Source="https://www.youtube.com/embed/p3NXd3DhH08"/>
+            </Frame>
+            <Grid Grid.Row="1" Padding="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Text="Recommended Place" Clicked="SkatingPlace" HorizontalOptions="Fill" VerticalOptions="End" Margin="50,10,-100,0" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

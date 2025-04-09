@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdrenalistApp.About"
+             Title="About">
+    <VerticalStackLayout
+         Padding="30,0"
+         Spacing="25">
+        <Label Text="&#x0a;"/>
+        <Image Source="logo.png" HeightRequest="100" />
+        <Label Text="Adrenalist" FontSize="24" FontAttributes="Bold"  HorizontalTextAlignment="Center"/>
+        <Label Text="Adrenalist is basically a combine between 'adrenaline' and 'list' implying a curated list of adrenaline-pumping activities or adventures. Adrenalist makes it easier for user to try new adventure activities by giving detailed guides and suggesting cool places. It helps people who want to go on thrilling adventures." FontSize="16" HorizontalTextAlignment="Start"/>
+        <Label Text="The app is developed by Amirul Shahiran, an avid adventurer passionate about sharing the excitement of outdoor activities with others. With Adrenalist, explore the world of adventure and make unforgettable memories." FontSize="16" HorizontalTextAlignment="Start"/>
+        <Label x:Name="lblVersion" FontSize="16" HorizontalTextAlignment="Center"/>
+        <Label Text="Copyright © 2024 Adrenalist" FontSize="16" HorizontalTextAlignment="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

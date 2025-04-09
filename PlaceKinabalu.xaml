@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdrenalistApp.PlaceKinabalu"
+             Title="Gunung Kinabalu">
+    <ScrollView>
+        <VerticalStackLayout
+    Padding="80,0"
+    Spacing="25">
+            <Image Source="kinabalu.png" WidthRequest="400" HeightRequest="400" HorizontalOptions="Center" />
+            <Label
+      Text="Mount Kinabalu with an elevation of 4,095 metres (13,435 ft) located in the Malaysian state of Sabah on the island of Borneo, is one of Southeast Asia's highest peaks and a UNESCO World Heritage Site."         
+      VerticalOptions="Start"
+      HorizontalOptions="Center"
+      FontSize="18"
+      FontAttributes="Bold" />
+            <Label 
+    Text="Difficulty : HARD"
+/>
+            <Label 
+    Text="PIC : Kinabalu Park Headquarters" 
+/>
+            <Label 
+    Text="Phone : +60 88-889801"
+/>
+            <Label 
+    Text="Email : info@mountkinabalu.com"
+/>
+
+
+            <Grid Grid.Row="1" Padding="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Text="Rate This Place" HorizontalOptions="Fill" VerticalOptions="End" Clicked="RatePlace" Margin="1,10,-80,0" />
+            </Grid>
+            <Grid Grid.Row="1" Padding="5" HorizontalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Text="Map" HorizontalOptions="Center" VerticalOptions="End" Clicked="MapsButton_Clicked" Margin= "0,-30,20,50" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
